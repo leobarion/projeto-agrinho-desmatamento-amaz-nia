@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Denuncie</title>
+  <style>
+    body {
+      background-color: #d0f0c0;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      font-size: 24px;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    textarea {
+      width: 100%;
+      max-width: 600px;
+      height: 150px;
+      font-size: 20px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 24px;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #388E3C;
+    }
+    .voltar {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
+    }
+    .voltar:hover {
+      background-color: #388E3C;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Denuncie</h1>
+    <img src="img/img5.jpg" alt="Denúncia Ambiental"  class="denuncie">
+    <p>
+      O combate ao desmatamento ilegal depende também da sua vigilância.
+      Se você testemunhar atividades suspeitas, denuncie:
+    </p>
+    <p>
+      📞 IBAMA - Linha Verde: 0800 61 8080<br />
+      🌐 Site: www.ibama.gov.br<br />
+      📱 Aplicativos: “Proteja Brasil” ou plataformas estaduais.
+    </p>
+    <p>As denúncias podem ser anônimas. Proteger as florestas é proteger a vida!</p>
+
+    <form>
+      <label for="denuncia">Envie sua denúncia anônima:</label><br />
+      <textarea id="denuncia" name="denuncia" placeholder="Descreva aqui sua denúncia..."></textarea><br />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <br />
+    <a href="index.html" class="voltar">⬅ Voltar</a>
+  </div>
+</body>
+</html>
